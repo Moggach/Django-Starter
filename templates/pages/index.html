@@ -1,8 +1,15 @@
 {% extends 'base.html' %} {% block content %}
 
-<h1>Home</h1>
+<h1>Hello!</h1>
 <p>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 </p>
+<div>
+  {% for show in shows %}
+
+  <h5>Show {{show.id}}---{{show.name}}</h5>
+
+  {% endfor %}
+</div>
 {% endblock %}
