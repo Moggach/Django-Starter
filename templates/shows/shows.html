@@ -4,6 +4,8 @@
 
 {% if shows %} {% for show in shows %}
 <p>{{show.name}}</p>
+
+<img src="{{show.image.url}}" alt="" />
 {% endfor %} {% else %}
 
 <div>No shows to display</div>

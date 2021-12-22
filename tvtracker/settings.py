@@ -116,6 +116,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'tvtracker/static')
 ]
+
+IMAGES_ROOT = os.path.join(BASE_DIR, 'images')
+IMAGES_URL = '/images/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
