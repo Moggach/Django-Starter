@@ -22,7 +22,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'djangoratings',
+
     'shows.apps.ShowsConfig',
     'pages.apps.PagesConfig',
     'django.contrib.admin',
