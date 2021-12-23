@@ -1,11 +1,11 @@
 from django.contrib import admin
 
 
-from .models import Shows
+from .models import Show
 
-class ShowsAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name', 'description', 'watched', 'date_aired')
+class ShowAdmin(admin.ModelAdmin):
+    list_display = ('id', 'name', 'description', 'watched', 'date_aired', 'image')
 
 
-admin.site.register(Shows, ShowsAdmin)
+admin.site.register(Show, ShowAdmin)
 

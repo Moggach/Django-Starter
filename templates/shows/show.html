@@ -1,0 +1,11 @@
+{% extends 'base.html' %} {% block title %} | {{ show.title }} {% endblock %} {%
+block content %} {% if show %}
+<h1>{{show.name}}</h1>
+
+<p>{{show.description}}</p>
+
+<img src="{{show.image.url}}" alt="" />
+{% else %}
+
+<div>No show to display</div>
+{% endif %} {% endblock %}
