@@ -1,0 +1,7 @@
+asgiref==3.4.1
+Django==4.0
+django-ratings==0.3.7
+Pillow==8.4.0
+psycopg2==2.9.2
+psycopg2-binary==2.9.2
+sqlparse==0.4.2
